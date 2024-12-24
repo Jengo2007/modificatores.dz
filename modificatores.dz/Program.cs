@@ -20,15 +20,15 @@ namespace modificatores.dz
             set { Power = value; }
         }
 
-        public void TurnOn(string status)
+        public void TurnOn(string Sostoyanie)
         {
-            status = "on";
+            Sostoyanie = "on";
             Console.WriteLine("Устройство включено");
         }
 
-        public void TurnOff(string status)
+        public void TurnOff(string Sostoyanie)
         {
-            status = "off";
+            Sostoyanie = "off";
             Console.WriteLine("Устройство выключено");
         }
     }
